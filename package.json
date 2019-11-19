@@ -9,9 +9,6 @@
     "type": "git",
     "url": "https://github.com/stripe/stripe-payments-demo.git"
   },
-  "engines": {
-    "node": "8.x"
-  },
   "scripts": {
     "start": "node server/node/server.js"
   },

@@ -1,0 +1,29 @@
+{
+  "name": "stripe-payments-demo-mx-msi",
+  "description": "Sample store accepting universal payments on the web with Stripe Elements, Payment Request, Apple Pay, Google Pay, Microsoft Pay, and the Sources API.",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Romain Huet",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stripe/stripe-payments-demo.git"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "node server/node/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "stripe": "^6.13.0"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.9"
+  }
+}
